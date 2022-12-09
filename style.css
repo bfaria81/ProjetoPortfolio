@@ -1,0 +1,455 @@
+body,
+html {
+  margin: 1%;
+}
+
+:root {
+  --body-bg-color: #22212c;
+  --text-color: #837e9f;
+  --bg-cards: #302f3d;
+  --bg-techs: #6e6eae; /*#cb92b1*/
+}
+
+.master {
+  position: relative;
+  width: 1221px;
+  height: 1780px;
+  background: var(--body-bg-color);
+  min-width: 610.5px;
+  max-width: 1221px;
+  box-sizing: border-box;
+  display: grid;
+}
+
+.principalEsquerda {
+  position: absolute;
+  width: 400px;
+  height: 1780px;
+  top: 0px;
+  left: 0px;
+  background: var(--body-bg-color);
+  box-sizing: border-box;
+  display: grid;
+  min-width: 200px;
+  max-width: 400px;
+}
+
+.principalDireita {
+  position: absolute;
+  width: 821px;
+  height: 1780px;
+  top: 0px;
+  right: 0px;
+  background: var(--body-bg-color);
+  box-sizing: border-box;
+  display: grid;
+  min-width: 410.5px;
+  max-width: 821px;
+}
+
+.profile {
+  position: absolute;
+  width: 348px;
+  height: 292px;
+  left: 26px;
+  top: 38px;
+  background: var(--bg-cards);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  align-items: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+img.foto {
+  border-radius: 50%;
+  width: 128px;
+  height: 128px;
+  padding: 2px;
+  border: 3px solid rgb(0, 76, 218);
+  margin-top: 25px;
+}
+p.tituloH2 {
+  text-align: center;
+  padding: 0px 20px;
+  margin-top: 25px;
+
+  height: 15px;
+
+  font-family: "Merriweather Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 25px;
+
+  color: var(--bg-techs);
+}
+
+p.subtituloProfile {
+  position: static;
+  padding: 0px 20px;
+  font-family: "Merriweather Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: var(--text-color);
+  text-align: center;
+}
+
+.links {
+  position: absolute;
+  width: 348px;
+  height: 348px;
+  left: 0px;
+  top: 321px;
+  background: var(--bg-cards);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.tecnologias {
+  position: absolute;
+  width: 348px;
+  height: 208px;
+  left: 0px;
+  top: 695px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  background: var(--bg-cards);
+}
+.experiencia {
+  position: absolute;
+  width: 348px;
+  height: 379px;
+  left: 0px;
+  top: 928px;
+  background: var(--bg-cards);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.exp {
+  display: flex;
+  padding-left: 5px;
+  padding-bottom: 20px;
+  height: 60px;
+  left: 60px;
+}
+
+.ponto {
+  height: 5px;
+  width: 5px;
+  background: var(--text-color);
+  border-radius: 50%;
+  display: inline-block;
+  margin: 20px 20px 30px 20px;
+}
+
+.textoExperiencia {
+  font-size: 14px;
+  position: static;
+  left: 160px;
+  top: 770px;
+  font-family: "Merriweather Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+
+  color: var(--text-color);
+}
+
+p.descricao1 {
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+p.descricao2 {
+  font-size: 12px;
+  font-weight: 100;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+p.descricao3 {
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.educacao {
+  position: absolute;
+  width: 348px;
+  height: 379px;
+  left: 0px;
+  top: 1335px;
+  background: var(--bg-cards);
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+}
+
+.edu {
+  display: flex;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  height: 60px;
+  left: 60px;
+}
+
+.textoEducacao {
+  font-size: 14px;
+  position: static;
+  height: 60px;
+  left: 160px;
+  top: 770px;
+  font-family: "Merriweather Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+
+  color: var(--text-color);
+}
+.tecs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 auto;
+}
+
+.textoTecs {
+  font-family: "Merriweather Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  padding: 8px 2px;
+  margin-left: 12px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 85px;
+  left: 62px;
+  top: 432px;
+  background: var(--bg-techs);
+  border-radius: 30px;
+}
+
+/* Caixa Esquerda*/
+.meusProjetos {
+  position: absolute;
+  width: 800px;
+  height: 70px;
+  left: 0px;
+  top: 40px;
+  background: var(--bg-cards);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+.resumoProfissionalEsquerda {
+  position: absolute;
+  width: 395px;
+  height: 200px;
+  left: 0px;
+  top: 130px;
+  background: var(--bg-cards);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+.resumoProfissionalDireita {
+  position: absolute;
+  width: 395px;
+  height: 200px;
+  left: 404px;
+  top: 130px;
+  background: var(--bg-cards);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+.habilidades {
+  position: absolute;
+  width: 800px;
+  height: 59px;
+  left: 0px;
+  top: 360px;
+  background: var(--bg-cards);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+.resumoHabilidades {
+  position: absolute;
+  width: 800px;
+  height: 201px;
+  left: 0px;
+  top: 443px;
+  background: var(--bg-cards);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+p.tituloH3 {
+  position: static;
+  padding: 0px 20px;
+  width: 121px;
+  height: 21px;
+  left: 60px;
+  top: 770px;
+  font-family: "Merriweather Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: var(--bg-techs);
+  margin-bottom: 10px;
+}
+
+p.tituloH3esquerda {
+  position: static;
+  padding: 0px 20px;
+  width: 121px;
+  height: 21px;
+  left: 60px;
+  top: 770px;
+  font-family: "Merriweather Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: var(--bg-techs);
+  margin-bottom: 25px;
+}
+
+p.tituloH4 {
+  position: static;
+  padding: 0px 20px;
+  width: 121px;
+  height: 26px;
+  left: 60px;
+  top: 770px;
+  font-family: "Merriweather Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25px;
+  color: #6e6eae;
+}
+
+p.textos {
+  position: static;
+  padding: 0px 20px;
+
+  height: 105px;
+  left: 60px;
+  top: 770px;
+  font-family: "Merriweather Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.textosSkills {
+  padding: 0px 20px;
+  margin-top: 8px;
+
+  font-family: "Merriweather Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+
+  color: var(--text-color);
+}
+
+ul.textos {
+  position: static;
+  padding: 0px 14px;
+  height: 105px;
+  left: 60px;
+  top: 770px;
+  margin-left: 10px;
+  margin-top: 8px;
+}
+
+li.textos {
+  position: static;
+  padding: 3px 0px;
+
+  font-family: "Merriweather Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  color: var(--text-color);
+  text-decoration: none;
+  list-style: disc;
+}
+
+img.linkImagens {
+  width: 24px;
+  height: 24px;
+  left: 80px;
+  top: 392px;
+  padding-top: 15px;
+  padding-left: 25px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  align-items: center;
+}
+
+p.textosLinks {
+  position: static;
+  padding: 0px 10px;
+  height: 35px;
+  left: 30px;
+  top: 770px;
+  font-family: "Merriweather Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  color: var(--text-color);
+  text-decoration: none;
+  list-style: none;
+  vertical-align: middle;
+}
+
+ul {
+  list-style: none;
+}
+
+a.textos {
+  padding-left: 10px;
+  padding-top: 0px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  color: #6e6eae;
+  text-decoration: none;
+}
+
+ul.textoHabilidades {
+  margin-top: 21px;
+}
+
+p.textoHabilidades {
+  position: static;
+  padding: 0px 20px;
+  height: 173px;
+  left: 60px;
+  top: 770px;
+  font-family: "Merriweather Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  color: var(--text-color);
+}
